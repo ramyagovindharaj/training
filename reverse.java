@@ -4,7 +4,7 @@ public class Main {
         String reversed = "";
 
         for (int i = str.length() - 1; i >= 0; i--) {
-            reversed += str.charAt(i);  // adds each character from end to start
+            reversed += str.charAt(i);  
         }
 
         System.out.println("Reversed String: " + reversed);
